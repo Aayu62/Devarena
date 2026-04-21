@@ -1,5 +1,3 @@
-Here’s your content restructured into a **GitHub‑friendly README.md** format, keeping everything exactly as you wrote but organized with proper Markdown hierarchy and spacing:
-
 ```markdown
 # DevArena
 
@@ -40,7 +38,6 @@ Built with **Spring Boot 4.0.2** | **Java 17** | **PostgreSQL**
 
 ### Project Structure
 
-```
 backend/
 ├── auth/       # JWT auth, login, register
 ├── battle/     # Battle logic, matchmaking, submissions, rating
@@ -50,7 +47,6 @@ backend/
 ├── friend/     # Friend system
 ├── config/     # Security, WebSocket, converter configs
 └── common/     # Shared enums, exceptions, utilities
-```
 
 ### Running Locally
 
@@ -59,9 +55,6 @@ backend/
 
 ```bash
 ./mvnw spring-boot:run
-```
-
----
 
 ## Frontend
 
